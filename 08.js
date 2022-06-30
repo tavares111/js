@@ -14,4 +14,4 @@ function removeDuplicateFromArray(arr) {
   return uniqueArray;
 }
 
-removeDuplicateFromArray(['a','b','c','A','B','C','a','b','c']);
+console.log(removeDuplicateFromArray(['a','b','c','A','B','C','a','b','c']));

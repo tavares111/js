@@ -12,7 +12,7 @@ function mergeArray(arr1, arr2) {
     return Object.keys(uniqueList);
 }
 
-mergeArray(
+console.log(mergeArray(
     ["a", "b", "c", "A", "B", "C", 1, 2, 3],
     ["a", "b", "c", "A", "B", "C", "d", "e", "f"]
-);
+));

@@ -13,8 +13,8 @@ function flattenArray(arrOfArr) {
             }
         });
     });
-  	console.log(duplicatesArray)
-    return Object.values(uniqueList)
+  	console.log('Duplicated', duplicatesArray);
+    console.log('Unique', Object.values(uniqueList));
 }
 
 flattenArray([[1,2,3],[1,2,3],[1,2,3],[4,5,6],[7,8,9]])

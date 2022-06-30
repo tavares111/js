@@ -11,5 +11,5 @@ function combString(str) {
     });
     return result;
   }
- combString("12");
+ console.log(combString("12"));
   

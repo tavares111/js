@@ -3,4 +3,4 @@ function checkValidUrl(url) {
     return urlRegex.test(url);
 }
 
-checkValidUrl('http://www.google.com');
+console.log(checkValidUrl('http://www.google.com'));

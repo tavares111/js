@@ -8,4 +8,4 @@ const reverseNumber = (num) => {
   return Number(numberArray.join(""))
 }
 
-reverseNumber(123)
+console.log(reverseNumber(123))

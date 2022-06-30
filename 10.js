@@ -6,4 +6,4 @@ function sumValuesOfArray(numberArray) {
     }, 0)
 }
 
-sumValuesOfArray([1,2,3])
+console.log(sumValuesOfArray([1,2,3]));

@@ -6,9 +6,9 @@ const switchEdgeLetters = (word) => {
     const wordArray = word.split("");
     const init = wordArray.shift();
     const end = wordArray.pop();
-      wordArray.unshift(end);
+    wordArray.unshift(end);
     wordArray.push(init);
     return wordArray.join("")
   }
   
-  switchEdgeLetters('alo')
+  console.log(switchEdgeLetters('1234'))
